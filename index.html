@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-Up Form</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+    <!-- [centered logo and vector image] -->
+ <div class="main-panel">
+    <div class="box-panel">
+        <img src="images/Logo.png" class="logo" alt="volounteerLogo">
+        <img src="images/vectorVolunteer.png" class="vector" alt="volunteerVector">
+    </div>
+    <!-- Sign Up panel -->
+    <div class="box-panel">
+        <form action="" id="signupForm">
+            <h1>Sign Up</h1>
+            <p>Fill the form below to create your account</p>
+
+            <label for="full-name">Full name</label>
+            <input type="text" name="name" id="fullName" placeholder="Enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirmPassword" placeholder="Confirm your password" required>
+
+            <button class="btn signup-btn" type="submit">Sign Up</button>
+
+
+            <button class="btn google-btn">
+                <img src="images/google.png" class="google-icon" alt="google">
+                Sign Up with Google
+            </button>
+        </form>
+        </div>
+</div>
+</body>
+</html>
